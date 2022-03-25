@@ -9,6 +9,9 @@
     <ion-list>
       <button ion-item *ngFor="let contato of contatos">
         {{ contato.nome }} {{ contato.sobrenome }}
+        <button item-end>
+          <ion-icon class="logos" name="logo-whatsapp"></ion-icon>
+        </button>
       </button>
     </ion-list>
   </ion-card>

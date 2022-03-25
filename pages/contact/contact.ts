@@ -3,7 +3,8 @@ import { NavController } from 'ionic-angular';
 
 @Component({
   selector: 'page-contact',
-  templateUrl: 'contact.html'
+  templateUrl: 'contact.html',
+  styleUrls: [ 'contact.scss' ]
 })
 export class ContactPage {
   private contatos: Array<Object> = [];
@@ -13,15 +14,10 @@ export class ContactPage {
   
   this.contatos = [
     {
-      "nome": "Ricardo",
-      "sobrenome": "Crivelli",
-      "telefone": "+55 14 99999-9999"
+      "nome": "Jonnathan",
+      "sobrenome": "Cruz",
+      "telefone": "+55 14 99999-9999",
     },
-    {
-      "nome": "João",
-      "sobrenome": "Silva",
-      "telefone": "+55 14 55555-5555"
-    }
   ]
 }
 }
